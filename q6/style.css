@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(96, 159, 161);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#input {
+  padding: 4px;
+  margin-right: 4px;
+  outline: none;
+}
+.container {
+  position: absolute;
+  bottom: 100px;
+}
+.btn {
+  padding: 6px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(212, 224, 224);
+}
+.todo {
+  width: 100px;
+  height: 24px;
+  background-color: white;
+  text-align: center;
+  margin: 8px 0;
+}
