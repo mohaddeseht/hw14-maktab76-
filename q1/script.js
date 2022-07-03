@@ -1,0 +1,1 @@
+$('div').css({ 'background-color': 'pink', 'margin': '24px 0' });
